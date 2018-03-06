@@ -1,0 +1,121 @@
+body {
+    background-image: url("https://us.123rf.com/450wm/studiom1/studiom11004/studiom1100400631/6879301-trust-seamless-background-wordcloud-illustration.jpg?ver=6");
+}
+
+.container{
+    padding-top:10px;
+}
+
+header {
+    width:700px;
+    height: 180px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0 auto;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 105px;
+    color:goldenrod
+}
+
+h3 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+    color:darkkhaki;
+}
+
+.wrapper {
+    width:700px;
+    height: 180px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0 auto;
+    box-sizing: border-box;
+    font-family: 'Mina', sans-serif;
+    display: flex;
+    color: rgb(70, 68, 66);
+}
+
+.images {
+    width:50%;
+    height: 180px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0;
+    box-sizing: border-box; 
+    padding: 0;
+    background-color:rgb(196, 196, 196);
+}
+
+.instructions {
+    width:50%;
+    height: 180px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0;
+    box-sizing: border-box;
+    padding:28px 0 0 0;
+    font-size: 40px;
+    background-color:rgb(196, 196, 196);
+}
+
+.currentword {
+    width:700px;
+    height: 140px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0 auto;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color: rgb(70, 68, 66);
+    font-family: 'Mina', sans-serif;
+    font-size:60px;
+    color: rgb(196, 196, 196)
+}
+
+.lettersguessed {
+    width:700px;
+    height: 140px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0 auto;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color: rgb(196, 162, 152);
+    font-family: 'Mina', sans-serif;
+    font-size:60px;
+    color:rgb(94, 103, 128)
+}
+
+.guessesleft {
+    width:700px;
+    height: 140px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0 auto;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color:rgb(94, 103, 128);
+    font-family: 'Mina', sans-serif;
+    font-size:60px;
+    color: rgb(196, 162, 152);
+}
+
+.winsandlosses {
+    width:700px;
+    height: 140px;
+    border: solid darkkhaki 1px;
+    text-align:center;
+    margin:0 auto;
+    padding-top: 12px;
+    box-sizing: border-box;
+    background-color:beige;
+    font-family: 'Mina', sans-serif;
+    font-size:60px;
+    color: goldenrod;
+}
+

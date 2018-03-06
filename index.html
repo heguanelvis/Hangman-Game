@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Javascript -->
+      <script src="./assets/javascript/game.js"></script>
+      <!-- Reset -->
+      <link rel="stylesheet" href="./assets/css/reset.css">
+      <!-- CSS stylesheet -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Arima+Madurai|Homemade+Apple|Walter+Turncoat|Yellowtail" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|Mina|Monoton" rel="stylesheet">
+
+      <title>Hangman Game</title>
+  </head>
+  <body>
+      <audio id="myAudio">
+        <source src="./../Hangman-Game/assets/audio/Ta Da-SoundBible.com-1884170640.mp3" type="audio/mpeg">
+      </audio>
+
+        <div class="container">
+
+            <header>
+                <h1>Hangman Game</h1>
+                <br>
+                <br>
+                <h3>Mystical Creatures</h3>
+            </header>
+            
+            <div class="wrapper">
+                
+                <img class="images" src="http://www.oogazone.com/wp-content/uploads/top-best-free-flying-dragon-silhouette-vector-file-pictures-design.jpg" alt="Mystical Creature">
+                
+                <div class="instructions">
+                 Press space to start and restart game!
+                </div>
+            </div>
+
+            <div class="currentword">Correct Letters: <p id="word-to-guess"></p></div>
+
+            <div class="lettersguessed">Letters Guessed: <p id="letters-guessed"></p></div>
+
+            <div class="guessesleft">Guesses Left: <p id="guessesleft"></p> </div>
+
+            <div class="winsandlosses" id="wins"></div>
+
+        </div>
+        
+  </body>
+  </html>
