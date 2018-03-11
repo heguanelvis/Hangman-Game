@@ -14,7 +14,7 @@ var program = {
     correctguesses: [],
     underscores: [],
 
-    words: ["WYVERN", "HYDRA", "YETI", "SPHINX", "CYCLOPS", "LICH", "MANTICORE"],
+    words: ["WYVERN", "HYDRA", "YETI", "SPHINX", "CYCLOPS", "LICH", "MANTICORE", "UNICORN", "KRAKEN", "GOLEM"],
     randomword: "",
     wordletters: [],
 
